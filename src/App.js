@@ -15,10 +15,15 @@ import Usergreeting from './components/Usergreeting';
 import Namelist from './components/Namelist';
 import Parson from './components/Parson';
 import Style from './components/style';
+import Lifecycle from './components/Lifecycle';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import Purecom from './components/Purecom';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
-        <Style all={true}/>
+        <Parent />
         
        
     </div>
